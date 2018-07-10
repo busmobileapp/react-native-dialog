@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   blur: {
     position: "absolute",
-    backgroundColor: "rgba(255,255,255, 0.8)",
+    backgroundColor: "rgba(255,255,255, 1)",
     top: 0,
     left: 0,
     bottom: 0,
@@ -117,13 +117,13 @@ const styles = StyleSheet.create({
       overflow: "hidden"
     },
     android: {
+      width: 300,
       flexDirection: "column",
       borderRadius: 3,
       padding: 16,
       backgroundColor: "white",
       overflow: "hidden",
-      elevation: 4,
-      minWidth: 300
+      elevation: 4
     }
   }),
   header: Platform.select({
